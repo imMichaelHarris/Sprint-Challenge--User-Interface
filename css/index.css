@@ -88,6 +88,10 @@ nav a  {
     font-weight: bold;
     color: #222;
     letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+}
+header nav a:hover {
+    background: #eee;
 }
 .top-content {
     display: flex;
@@ -128,6 +132,10 @@ nav a  {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.middle-content .boxes .box:hover {
+    transform: scale(1.5);
+    font-size: 11px;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -138,6 +146,8 @@ nav a  {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .8s ease-in-out;
+
 }
 
 .bottom-content {
@@ -172,6 +182,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*************************     ABOUT STYLES     ************************************************************/
 .about-about {
     padding: 20px;
     border-bottom: 1px dashed black;
@@ -201,6 +213,7 @@ button {
     border: 2px solid black;
     font-size: 16px;
 }
+/*************************     PRODUCT STYLES     ************************************************************/
 .together {
     margin: 20px;
 }
