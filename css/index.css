@@ -189,6 +189,9 @@ main {
     flex-wrap: wrap;
     margin: 20px 0;
 }
+.card img {
+    width: 340px;
+}
 button {
     margin: 20px 0;
     padding: 10px 25px;
@@ -199,5 +202,8 @@ button {
     font-size: 16px;
 }
 .together {
-    padding: 20px 5px;
+    margin: 20px;
+}
+.products {
+    padding: 20px 10px;
 }
