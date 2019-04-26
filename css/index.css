@@ -70,12 +70,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a  {
+    padding: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 1px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -89,6 +104,16 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.middle-content .boxes div.box-1 { background: teal;}
+.middle-content .boxes div.box-2 { background: gold;}
+.middle-content .boxes div.box-3 { background: cadetblue;}
+.middle-content .boxes div.box-4 { background: coral;}
+.middle-content .boxes div.box-5 { background: crimson;}
+.middle-content .boxes div.box-6 { background: forestgreen;}
+.middle-content .boxes div.box-7 { background: darkorchid;}
+.middle-content .boxes div.box-8 { background: hotpink;}
+.middle-content .boxes div.box-9 { background: indigo;}
+.middle-content .boxes div.box-10 { background: dodgerblue;}
 
 .middle-content h2 {
     padding: 0 2%;
