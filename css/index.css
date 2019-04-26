@@ -197,12 +197,16 @@ main {
     padding: 5px 20px;
     border-bottom: 1px dashed black;
     display: flex;
-    width: 48%;
+    width: 380px;
     flex-wrap: wrap;
     margin: 20px 0;
 }
+.card {
+    max-width: 100%;
+}
 .card img {
-    width: 340px;
+    object-fit: cover;
+    width: 100%;
 }
 button {
     margin: 20px 0;
