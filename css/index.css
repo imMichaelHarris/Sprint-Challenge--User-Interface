@@ -69,18 +69,21 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: 500;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: baseline; 
 }
+header nav a {
+    padding: 35px;
+}
 nav {
     display: flex;
     justify-content: space-between;
 }
 nav a  {
-    padding: 35px;
     text-decoration: none;
     font-weight: bold;
     color: #222;
@@ -193,4 +196,8 @@ button {
     border-style: none;
     background: white;
     border: 2px solid black;
+    font-size: 16px;
+}
+.together {
+    padding: 20px 5px;
 }
