@@ -213,6 +213,43 @@ button {
     border: 2px solid black;
     font-size: 16px;
 }
+@media (max-width: 700px){
+
+    .container {
+        width: 100vw;
+    }
+    nav {
+        flex-wrap: wrap;
+    }
+    header nav a {
+        padding: 20px;
+    }
+    .top-content, .middle-content, .bottom-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+     .text-container {
+        width: 90%;
+        margin: auto;
+    }
+    div.card {
+        margin: auto;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    main.main-content-box {
+        width: 90%;
+        margin: auto;
+    }
+    button {
+        width: 50%;
+    }
+    .jumbo {
+        width: 99vw;
+    }
+}
 /*************************     PRODUCT STYLES     ************************************************************/
 .together {
     margin: 20px;
@@ -224,6 +261,7 @@ label {
     display: inline-block;
     
 }
+/****************************        CONTACT STYLES      ***********************************************************/
 .contact-main {
     justify-content: center;
     text-align: center;
